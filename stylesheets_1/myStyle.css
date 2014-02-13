@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Pacifico;
+  src: url("../Pacifico.ttf"); }
+
+@font-face {
+  font-family: GreatVibes-Regular;
+  src: url("../GreatVibes-Regular.otf"); }
+
+body {
+  background-image: url("../image6.jpg"); }
+
+h3 {
+  font-family: Pacifico; }
+
+#french_button:hover, #engish_button:hover {
+  cursor: pointer; }
+
+p, #dedication {
+  font-family: GreatVibes-Regular;
+  font-size: 30px; }
+
+.french_text ul li, .english_text ul li {
+  font-family: GreatVibes-Regular;
+  font-size: 30px; }
+
+.top_header {
+  background-color: #f5f8fc;
+  min-height: 40px;
+  margin: 2px 0 5px 0;
+  opacity: 0.7; }
+
+.footer {
+  background-color: #f5f8fc;
+  min-height: 40px;
+  margin: 0px 0 2px 0;
+  opacity: 0.7;
+  position: fixed; }
+
+.part_1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #bf3eff;
+  min-height: 450px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  opacity: 0.5;
+  box-shadow: none; }
+
+.part_1:hover, .part_1_hidden:hover, .part_2_hidden:hover,
+.part_2:hover, .part_3_hidden:hover {
+  box-shadow: 0px 0px 15px 5px #f2e1f2;
+  -webkit-box-shadow: 0px 0px 15px 5px #f2e1f2;
+  -moz-box-shadow: 0px 0px 15px 5px #f2e1f2; }
+
+.part_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffcccc;
+  min-height: 450px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  opacity: 0.7; }
+
+.part_1_hidden {
+  background-color: #ffcccc;
+  min-height: 450px;
+  border-radius: 25px;
+  opacity: 0.7; }
+
+.part_2_hidden {
+  background-color: orange;
+  min-height: 450px;
+  border-radius: 25px;
+  opacity: 0.7; }
+
+.part_3_hidden {
+  background-color: #c75e5e;
+  min-height: 450px;
+  border-radius: 25px;
+  opacity: 0.7; }
