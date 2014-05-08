@@ -1,0 +1,29 @@
+.landing_area{
+background-color:#ffcccc;
+border-radius:25px;
+opacity:0.7;
+padding:20px;
+
+}
+
+body{
+	background-image:url(blackcouple.jpg);
+}
+
+#my_page{
+margin:5px;
+}
+
+#my_footer{
+margin:10px 20px;
+padding:10px;
+border-top:1px solid #ffcccc;
+text-align:center;
+font-size:0.8em;
+}
+
+#my_header{
+margin:0;
+padding:0;
+border-top:1px solid #ffcccc;
+}

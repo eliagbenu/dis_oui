@@ -1,0 +1,112 @@
+//myStyle
+
+@font-face {
+font-family: Pacifico;
+src: url('../Pacifico.ttf');
+}
+
+@font-face {
+font-family: GreatVibes-Regular;
+src: url('../GreatVibes-Regular.otf');
+}
+
+$color_1 : #BF3EFF;
+$color_2 : #FFCCCC;
+$color_3 : #F5F8FC;
+$color_4 : #FFA500;
+$color_5 : #C75E5E;
+$min_height:450px;
+$border-radius:25px;
+$background-image:url('../image6.jpg');
+$opacity_value:0.7;
+
+
+body{
+background-image:$background-image;
+}
+
+h3 {
+font-family: Pacifico;
+}
+
+#french_button:hover,#engish_button:hover{
+	cursor:pointer;
+}
+
+p,#dedication{
+font-family: GreatVibes-Regular;
+font-size:30px;
+}
+
+.french_text ul li,.english_text ul li{
+font-family: GreatVibes-Regular;
+font-size:30px;
+}
+
+.top_header{
+background-color: $color_3;
+min-height:40px;
+margin:2px 0 5px 0;
+opacity:$opacity_value;
+}
+
+
+.footer{
+background-color: $color_3;
+min-height:40px;
+margin:0px 0 2px 0;
+opacity:$opacity_value;
+position:fixed;
+}
+
+.part_1{
+margin-top:20px;
+margin-bottom:20px;
+background-color: $color_1;
+min-height: $min_height;
+border-top-left-radius: $border-radius;
+border-bottom-left-radius:$border-radius;
+opacity: 0.5;
+box-shadow:none;
+}
+
+.part_1:hover, .part_1_hidden:hover,.part_2_hidden:hover,
+.part_2:hover,.part_3_hidden:hover{
+box-shadow: 0px 0px 15px 5px #f2e1f2; 
+    -webkit-box-shadow: 0px 0px 15px 5px #f2e1f2;
+    -moz-box-shadow: 0px 0px 15px 5px #f2e1f2;
+}
+
+.part_2{
+margin-top:20px;
+margin-bottom:20px;
+background-color: $color_2;
+min-height: $min_height;
+border-top-right-radius: $border-radius;
+border-bottom-right-radius:$border-radius;
+opacity:$opacity_value;
+}
+
+.part_1_hidden{
+background-color: $color_2;
+min-height: $min_height;
+border-radius: $border-radius;
+opacity:$opacity_value;
+}
+
+
+.part_2_hidden{
+background-color: $color_4;
+min-height: $min_height;
+border-radius: $border-radius;
+opacity:$opacity_value;
+}
+
+
+.part_3_hidden{
+background-color: $color_5;
+min-height: $min_height;
+border-radius: $border-radius;
+opacity:$opacity_value;
+}
+

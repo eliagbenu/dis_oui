@@ -1,0 +1,17 @@
+//myStyle
+
+$color_1 : #ffccff;
+$color_2 : #fffcff;
+$min_height:500px;
+
+.part_1{
+background-color: $color_1;
+min-height: $min_height;
+left-border-radius: $border-radius;
+}
+
+.part_2{
+background-color: $color_2;
+min-height: $min_height;
+left-border-radius: $border-radius;
+}

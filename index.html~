@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo</title>
+
+
+    <link href="stylesheets_1/bootstrap/bootstrap.css" rel="stylesheet">
+
+
+    <script src="javascript/bootstrap.js"></script>
+    <script src="jquery-2.0.2.min.js"></script>    
+  </head>
+  <body>
+
+    <div class='container'>
+
+      <div class='part_1'>
+dddd
+
+      </div>
+
+      <div class='part_2'>
+
+sssss
+      </div>
+
+    </div>
+
+  </body>
+</html>
